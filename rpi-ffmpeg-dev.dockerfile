@@ -35,4 +35,4 @@ WORKDIR /FFmpeg
 
 RUN ./configure --arch=armel --target-os=linux --enable-gpl --enable-libx264 --enable-nonfree --extra-libs=-latomic
 
-RUN make -j 5
+RUN make -j 2
